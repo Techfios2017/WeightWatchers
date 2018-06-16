@@ -18,7 +18,7 @@ public class BrowserFactory {
 		
 		 if(browserName.equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:/auto1/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\eldrid\\git\\weightwatchers\\WeightWatchers\\drivers\\chromedriver.exe");
 			
 			driver = new ChromeDriver();
 		}
